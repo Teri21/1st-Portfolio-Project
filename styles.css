@@ -1,6 +1,3 @@
-* {
-  outline: 1px solid red;
-}
 .container-fluid {
   width: auto;
   height: 600px;
@@ -22,9 +19,11 @@ a {
   display: block;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 15px;
   color: black;
 }
+
 .locations-tool {
   height: 80px;
   flex-direction: column;
